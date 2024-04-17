@@ -4,7 +4,7 @@
 
 ### Installation
 ```sh
-sudo git clone <repo>/binary:namaskar /usr/bin
+wget https://raw.githubusercontent.com/Piyush-linux/namaskar/master/namaskar.sh -P /usr/bin 
 chmod +x /usr/bin/namaskar.sh
 namaskar.sh
 ```
