@@ -1,3 +1,5 @@
+<img src="/namaskar.png" width="200" />
+
 # Namaskar 🙏
 
 > Simple Neofetch Alternative
