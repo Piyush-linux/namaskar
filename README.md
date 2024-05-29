@@ -1,4 +1,6 @@
-<img src="/namaskar.png" width="200" />
+<div align="center">
+  <img src="/namaskar.png" width="200" />
+</div>
 
 # Namaskar 🙏
 
