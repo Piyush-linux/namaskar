@@ -35,6 +35,9 @@ c2=$(echo -e "\e[41m  \e[0m")
 c3=$(echo -e "\e[43m  \e[0m")
 c4=$(echo -e "\e[44m  \e[0m")
 c5=$(echo -e "\e[45m  \e[0m")
+c6=$(echo -e "\e[46m  \e[0m")
+c7=$(echo -e "\e[47m  \e[0m")
+c8=$(echo -e "\e[48m  \e[0m")
 
 cat <<EOF
 
@@ -43,9 +46,10 @@ ${c2} │ ┌─┼─┐ host   : ${host}
 ${c3} │ │ │ │ user   : ${user}
 ${c4} └─┼─┘ │ kernel : ${kernel}
 ${c5}   └───┘ shell  : ${shell}
-${c5}   └───┘ ram    : $($memory_percentage) ($memory_usage
-${c5}   └───┘ swap    : $($swap_percentage) ($swap_usage)
+${c6}   └───┘ ram    : $($memory_percentage) ($memory_usage
+${c7}   └───┘ swap    : $($swap_percentage) ($swap_usage)
+${c8}   └───┘ uptime  :   ${uptime}
 
-  ${uptime}
+
 
 EOF
