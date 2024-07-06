@@ -45,7 +45,7 @@ ${c4} └─┼─┘ │ kernel : ${kernel}
 ${c5}   └───┘ shell  : ${shell}
 ${c5}   └───┘ ram    : ${memory_percentage} (${memory_usage})
 ${c5}   └───┘ swap   : ${swap_percentage} (${swap_usage})
-${c6}   └───┘ uptime   : ${uptime}
+${c6}   └───┘ uptime : ${uptime}
 
 
 EOF
