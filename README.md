@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="/namaskar.png" width="200" />
+  <img src="/img.png" width="100%" />
 </div>
 
 # Namaskar 🙏
